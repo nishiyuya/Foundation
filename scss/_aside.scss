@@ -1,0 +1,23 @@
+.aside{
+    background-color: $sab_color;
+    width: 20%;
+    height: 80%;
+    padding: 40px 30px;
+    &_link{
+        margin-top: 20px;
+    }
+    &_heading{
+        font-size: $title_fs +16;
+        font-weight: lighter;
+    }
+    &_img{
+        height: 150px;
+    }
+    &_title{
+        margin-top: 10px;
+        font-size: $title_fs +8;
+    }
+    &_blok{
+        margin-top: 80px;
+    }
+}

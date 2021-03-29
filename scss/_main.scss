@@ -3,8 +3,8 @@
     padding: 40px 60px;
     @include flex;
     &_box{
-        width: 30%;
-        margin: 40px 30px;
+        width: 43%;
+        margin: 50px 40px;
     }
     &_bg{
         background-color: $sab_color;
@@ -14,12 +14,22 @@
     }
     &_img{
         &_photo{
-            width: 450px;
-            height: 300px;
+            width: 100%;
+            height: 350px;
         }
     }
     &_time{
-        font-size: $text_fs;
+        font-size: $title_fs;
         color: $font_color;
+        margin-top: 10px;
+    }
+    &_title{
+        font-size: $copy_fs +8;
+        margin-top: 5px;
+        font-weight: lighter;
+    }
+    &_text{
+        font-size: $title_fs +8;
+        margin-top: 10px;
     }
 }

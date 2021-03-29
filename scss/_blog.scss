@@ -1,0 +1,38 @@
+.blog{
+    margin: 50px 40px;
+    &_title{
+        font-size: $copy_fs +8;
+        margin-top: 50px;
+        border-bottom: 2px rgb(128, 128, 128) solid;
+        border-left: 2px rgb(128, 128, 128) solid;
+        padding: 5px 10px;
+    }
+    &_text{
+        font-size: $copy_fs;
+    }
+    &_btn{
+        margin: 100px 0;
+        font-size: $copy_fs;
+        font-weight: bold;
+        ::before{
+            content: "<=";
+        }
+    }
+    &_box{
+        margin: 0 0 30px 50px ;
+    }
+    &_comment{
+        font-size: $copy_fs;
+        &_name{
+            &_input{
+                margin-top: 10px;
+                width: 60%;
+            }
+        }
+        &_area{
+            margin-top: 20px;
+            width: 60%;
+            height: 300px;
+            }
+        }
+    }

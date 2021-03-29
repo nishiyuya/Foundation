@@ -1,6 +1,6 @@
 .header{
     &_title{
-        font-size: $copy_fs;
+        font-size: $copy_fs +8;
         font-weight: lighter;
         margin: 10px 20px 5px 20px;
     }
