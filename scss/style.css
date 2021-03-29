@@ -1,0 +1,44 @@
+.header_title {
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 10px 20px 5px 20px;
+}
+
+.main {
+  background-color: #e6e6e6;
+  padding: 40px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.main_box {
+  width: 30%;
+  margin: 40px 30px;
+}
+
+.main_bg {
+  background-color: white;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main_img_photo {
+  width: 450px;
+  height: 300px;
+}
+
+.main_time {
+  font-size: 8px;
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */

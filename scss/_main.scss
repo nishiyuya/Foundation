@@ -1,0 +1,25 @@
+.main{
+    background-color: $main_color;
+    padding: 40px 60px;
+    @include flex;
+    &_box{
+        width: 30%;
+        margin: 40px 30px;
+    }
+    &_bg{
+        background-color: $sab_color;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &_img{
+        &_photo{
+            width: 450px;
+            height: 300px;
+        }
+    }
+    &_time{
+        font-size: $text_fs;
+        color: $font_color;
+    }
+}
